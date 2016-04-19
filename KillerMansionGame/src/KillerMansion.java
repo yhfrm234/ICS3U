@@ -5,7 +5,11 @@ import java.util.Scanner;
 import hsa_new.*;
 import java.awt.*;
 public class KillerMansion {
-
+	/* Killer Mansion Game
+	 * A game to test if you'll live!
+	 * April 19, 2016
+	 * Ayub Hagi Ali and Raeid Khan
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
