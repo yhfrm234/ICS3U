@@ -1,5 +1,10 @@
 package hagiali;
 import java.util.Scanner;
+/* List of Names program
+ * It will list your names
+ * May 2, 2016
+ * Ayub Hagi Ali
+ */
 
 public class ListOfNames {
 
@@ -14,12 +19,15 @@ public class ListOfNames {
 		
 		int numberofnames;
 		
+		
+		//inputs
 		System.out.println("How much names do you want");
 		numberofnames = Integer.parseInt(scan.nextLine());
 		
 		String names [] = new String[numberofnames];
 		
 		System.out.println("Enter the " + numberofnames + " names that you want");
+		//processing and outputs
 		for (int i=0; i<= numberofnames - 1; i++)
 		{
 			names[i] = scan.nextLine();
